@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+    border-radius: 10px;
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+
+}
+
+.inner-option:hover
+{
+   color:white;
+   cursor: pointer;
+}
+
+.container:nth-child(1)
+{
+    background-color: brown;
+    color: orange;
+}
+
+.container:nth-child(2):hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.img{
+    display: flex;
+
+  
+    height: 200px;
+    width: 200px;
+}
+img:hover{
+
+    border-radius:100px ;
+   border: 3px solid brown;
+   
+}
+.element::before{
+    content:" here it is:- ";
+    background-color: rgba(0, 0, 17, 0.099);
+    text-transform: capitalize;
+   
+}
+
